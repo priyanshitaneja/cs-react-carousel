@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.reactCarousel__carousel {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+.reactCarousel__arrow {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.reactCarousel__carousel--images {
+  width: 200px;
+  height: 300px;
+}
+
+.reactCarousel__carousel--image {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.reactCarousel__carousel--dot {
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+.active-dot {
+  background-color: red;
+}
